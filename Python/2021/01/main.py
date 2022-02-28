@@ -1,5 +1,5 @@
 def load_depths(fname):
-    with open("2021/01/" + fname) as file:
+    with open("Python/2021/01/" + fname) as file:
         depths = [int(x) for x in file.read().split("\n")]
     return depths
 

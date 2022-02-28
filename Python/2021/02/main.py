@@ -1,5 +1,5 @@
 def load_instructions(fname):
-    with open("2021/02/" + fname) as file:
+    with open("Python/2021/02/" + fname) as file:
         instructions = file.read().split("\n")
     return instructions
 

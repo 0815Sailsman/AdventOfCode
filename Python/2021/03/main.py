@@ -3,7 +3,7 @@ LEAST_FREQUENT = 1
 
 
 def load_report(fname):
-    with open("2021/03/" + fname) as file:
+    with open("Python/2021/03/" + fname) as file:
         report = file.read().split("\n")
     return report
 
