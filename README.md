@@ -13,6 +13,7 @@ Trying to catch up and do every year, maybe even in different programming langua
 - [ ] Lua
 - [ ] Perl
 - [ ] Python
+- [ ] R
 - [ ] Ruby
 - [ ] Rust
 - [ ] Scala
