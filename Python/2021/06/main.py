@@ -1,6 +1,5 @@
 import logging
 import time
-import numpy as np
 
 
 def load_fish_data_from_file(fname):
@@ -35,12 +34,12 @@ def part1():
     logging.info(str(ages))
     for day in range(80):
         ages = reproduce(ages)
+        print(day)
     return len(ages)
 
 
 def smart_reproduce(fishes):
     num = fishes[0]
-
     for i in range(8):
         fishes[i] = fishes[i+1]
     fishes[6] += num
@@ -61,5 +60,5 @@ def part2():
 
 if __name__ == "__main__":
     logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
-    # logging.info(str(part1()))
-    logging.info(str(part2()))
+    logging.info(str(part1()))
+    # logging.info(str(part2()))
