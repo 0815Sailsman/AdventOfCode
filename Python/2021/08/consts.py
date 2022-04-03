@@ -1,0 +1,7 @@
+TOP = 0
+TOP_LEFT = 1
+TOP_RIGHT = 2
+MID = 3
+BOT_LEFT = 4
+BOT_RIGHT = 5
+BOT = 6
