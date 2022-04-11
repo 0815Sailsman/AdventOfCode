@@ -21,7 +21,8 @@ public class Main {
     ArrayList<Integer> data = new ArrayList<Integer>(); // Create an ArrayList object
     
     try {
-      File myObj = new File(filename);
+      File myObj = new File("Java/2020/01/" + filename);
+      System.out.println(myObj.getAbsolutePath());
       Scanner myReader = new Scanner(myObj);
       while (myReader.hasNextLine()) {
         String temp = myReader.nextLine();
