@@ -22,7 +22,6 @@ public class Main {
     
     try {
       File myObj = new File("Java/2020/01/" + filename);
-      System.out.println(myObj.getAbsolutePath());
       Scanner myReader = new Scanner(myObj);
       while (myReader.hasNextLine()) {
         String temp = myReader.nextLine();
