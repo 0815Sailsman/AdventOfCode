@@ -4,7 +4,7 @@ import java.util.Scanner; // Import the Scanner class to read text files
 import java.util.ArrayList; // import the ArrayList class
 
 
-public class Main {
+public class Day1 {
   
   public static void main(String[] args) {
     ArrayList<Integer> data = readFileData("data.txt");
