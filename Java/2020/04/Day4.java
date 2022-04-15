@@ -15,6 +15,7 @@ public class Day4 {
         */
         // System.out.println(valid_passports_1(data));
         System.out.println(valid_passports_2(data));
+
     }
 
     public static ArrayList<String> readFileData(String filename) {
